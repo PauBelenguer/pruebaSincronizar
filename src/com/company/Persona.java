@@ -7,6 +7,9 @@ public class Persona {
         this.id = id;
     }
 
+    public Persona() {
+    }
+
     public int getId() {
         return id;
     }
@@ -14,7 +17,6 @@ public class Persona {
     public void setId(int id) {
         this.id = id;
     }
-
     @Override
     public String toString() {
         return "Persona{" +
